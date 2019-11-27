@@ -1,4 +1,4 @@
-package 算法课;
+package 算法;
 
 public class ListNode {
 
