@@ -16,7 +16,8 @@ public class Main {
 		 
 //		 System.out.println(day.evalRPN(a));
 		 
-		 Day10 day = new Day10();
-		 day.palindrome3("cbbd");
+		 Day11 day = new Day11();
+		 int[] nums = new int[]{1,5,1,1,6,4};
+		 day.wiggleSort2(nums);
 	 }
 }
