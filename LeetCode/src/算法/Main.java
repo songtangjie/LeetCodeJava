@@ -4,6 +4,7 @@ package 算法;
 import java.util.List;
 
 import 算法.Day10;
+import 算法.Day12;
 
 public class Main {
 	 public static void main(String[] args) {
@@ -16,8 +17,8 @@ public class Main {
 		 
 //		 System.out.println(day.evalRPN(a));
 		 
-		 Day11 day = new Day11();
-		 int[] nums = new int[]{1,5,1,1,6,4};
-		 day.wiggleSort2(nums);
+//		 Day11 day = new Day11();
+//		 int[] nums = new int[]{1,5,1,1,6,4};
+//		 day.wiggleSort2(nums);
 	 }
 }
