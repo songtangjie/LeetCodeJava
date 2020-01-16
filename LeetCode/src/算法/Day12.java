@@ -7,7 +7,7 @@ import java.util.Set;
 public class Day12 {
 	
 	/* 快慢指针查找链表的环
-	 * 时间复杂度:O(n)，时间复杂度:O(1)
+	 * 时间复杂度:O(n)，空间复杂度:O(1)
 	 */
 	public int findDuplicate(int[] nums) {
         int slow = 0;
@@ -31,7 +31,7 @@ public class Day12 {
     }
 	
 	/* 用哈希表的唯一性来判断
-	 * 时间复杂度:O(n)，时间复杂度:O(n)
+	 * 时间复杂度:O(n)，空间复杂度:O(n)
 	 */
 	public int findDuplicate2(int[] nums) {
         Set<Integer> set = new HashSet<Integer>();
@@ -45,7 +45,7 @@ public class Day12 {
     }
 	
 	/* 先排序再查找前后数字
-	 * 时间复杂度:O(n)，时间复杂度:O(1)或O(n)
+	 * 时间复杂度:O(n)，空间复杂度:O(1)或O(n)
 	 */
 	public int findDuplicate1(int[] nums) {
         Arrays.sort(nums);
