@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Day14 {
 	/* 从后往前，双指针查找插入
-	 * 时间复杂度:O(n+m)，时间复杂度:O(1)
+	 * 时间复杂度:O(n+m)，空间复杂度:O(1)
 	 */
 	public void merge(int[] nums1, int m, int[] nums2, int n) {
 		int p1 = m-1;//记录第一个数组索引
@@ -20,7 +20,7 @@ public class Day14 {
 	}
 	
 	/* 合并后排序
-	 * 时间复杂度:O((n+m)log(n+m))，时间复杂度:O(1)
+	 * 时间复杂度:O((n+m)log(n+m))，空间复杂度:O(1)
 	 */
 	public void merge1(int[] nums1, int m, int[] nums2, int n) {
 		System.arraycopy(nums2, 0, nums1, m, n);
