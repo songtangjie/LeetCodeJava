@@ -1,7 +1,8 @@
 package 算法;
 
 public class Day19 {
-	/* 遍历，找到重复数则直接跳过
+	/* 
+	 * 遍历，找到重复数则直接跳过
 	 */
 	public ListNode deleteDuplicates(ListNode head) {
 		//虚节点
