@@ -17,7 +17,7 @@ public class Day29 {
 		}
         //确定区间中数字，例：1001是从100开始第270个数字的中间一位
         int am_num = (n-1) / i + (int)Math.pow(10, i-1);
-        //将数字变为string，好取得确定的数字；
+        //将数字变为string，好取得确定的数字
         String a = Integer.toString(am_num);
         if (n % i == 0) {
 			return (String.valueOf(a).charAt(i-1) - '0');

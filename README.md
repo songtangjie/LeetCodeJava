@@ -78,3 +78,6 @@ https://leetcode-cn.com/problems/number-of-digit-one/comments/
 
 Day29 第N个数字
 https://leetcode-cn.com/problems/nth-digit/submissions/
+
+Day30 最大数
+https://leetcode-cn.com/problems/largest-number/submissions/
