@@ -81,3 +81,6 @@ https://leetcode-cn.com/problems/nth-digit/submissions/
 
 Day30 最大数
 https://leetcode-cn.com/problems/largest-number/submissions/
+
+Day31 无重复字符的最长子串
+https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
