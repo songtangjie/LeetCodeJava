@@ -8,8 +8,10 @@ public class Main {
 //		 sort.bubbleSort(a);
 //		 SelectionSort sort = new SelectionSort();
 //		 sort.selectionSort(a);
-		 InsertionSort sort = new InsertionSort();
-		 sort.insertionSort(a);
+//		 InsertionSort sort = new InsertionSort();
+//		 sort.insertionSort(a);
+		 MergeSort sort = new MergeSort();
+		 sort.mergeSort(a);
 		 for (int i = 0; i < a.length; i++) {
 			 System.out.println(a[i]);
 		}
