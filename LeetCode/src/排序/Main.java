@@ -10,8 +10,10 @@ public class Main {
 //		 sort.selectionSort(a);
 //		 InsertionSort sort = new InsertionSort();
 //		 sort.insertionSort(a);
-		 MergeSort sort = new MergeSort();
-		 sort.mergeSort(a);
+//		 MergeSort sort = new MergeSort();
+//		 sort.mergeSort(a);
+		 QuickSort sort = new QuickSort();
+		 sort.quickSort(a);
 		 for (int i = 0; i < a.length; i++) {
 			 System.out.println(a[i]);
 		}
