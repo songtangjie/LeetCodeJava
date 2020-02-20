@@ -6,7 +6,9 @@ package 链表;
  */
 
 public class _141_环形链表 {
-	
+	/* 快慢指针
+	 * 时间复杂度:O(n)，空间复杂度:O(1)
+	 */
 	public boolean hasCycle(ListNode head) {
 	        
 	        if (head == null || head.next == null) return false;
