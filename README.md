@@ -141,3 +141,6 @@ https://leetcode-cn.com/problems/sliding-window-maximum/solution/hua-dong-chuang
 
 Day50 买卖股票的最佳时机
 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/submissions/
+
+Day51  构建乘积数组
+https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/
