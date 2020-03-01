@@ -138,3 +138,6 @@ https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/
 
 Day49 滑动窗口最大值
 https://leetcode-cn.com/problems/sliding-window-maximum/solution/hua-dong-chuang-kou-zui-da-zhi-by-leetcode-3/
+
+Day50 买卖股票的最佳时机
+https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/submissions/
