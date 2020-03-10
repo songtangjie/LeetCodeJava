@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class _739_每日温度 {
     /* 
-	 * 利用栈求出节点的父节点
+	 * 利用栈求出右边最近比该元素大的索引
 	 * 时间复杂度:O(n)，空间复杂度:O(n)
 	 */	
     public int[] dailyTemperatures(int[] T) {

@@ -2,7 +2,7 @@ package 栈_队列;
 
 import java.util.Stack;
 
-public class _151_最小栈 {
+public class _155_最小栈 {
 	//数据栈
 	Stack<Integer> stack;
 	//辅助栈
@@ -12,7 +12,7 @@ public class _151_最小栈 {
 	 * 辅助栈存放，空间换时间
 	 * 时间复杂度:O(1)，空间复杂度:O(n)
 	 */	
-    public _151_最小栈() {
+    public _155_最小栈() {
     	stack = new Stack<Integer>();
     	minStack = new Stack<Integer>();
     }
