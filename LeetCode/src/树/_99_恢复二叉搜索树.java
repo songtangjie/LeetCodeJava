@@ -16,9 +16,43 @@ public class _99_恢复二叉搜索树 {
      */
     private TreeNode second;
     
+    /* 
+	 * morris算法
+	 * 时间复杂度:O(n)，空间复杂度:O(1)
+	 */	
+    public void recoverTreeMorris(TreeNode root) {
+    	TreeNode node = root;
+    	while (node != null) {
+			if (node.left != null) {
+				//查找前驱节点
+				TreeNode predNode = node.left;
+				while (predNode.right != null && predNode.right != node) {
+					predNode = predNode.right;
+				}
+				
+				if (predNode.right == null) {
+					predNode.right = node;
+					node = node.left;
+				} else {
+					find(node);
+					predNode.right = null;
+					node = node.right;
+				}
+			} else {
+				find(node);
+				node = node.right;
+			}
+		}
+    	
+    	//交换错误的值
+    	int temp = first.val;
+    	first.val = second.val;
+    	second.val = temp;
+    }
+    
 	/* 
 	 * 中序遍历找逆序对，取最大值和最小值
-	 * 时间复杂度:O(n)，空间复杂度:O(1)
+	 * 时间复杂度:O(n)，空间复杂度:O(n)
 	 */	
     public void recoverTree(TreeNode root) {
     	findWrongNodes(root);
